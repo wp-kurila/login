@@ -13,7 +13,7 @@
 		background: #1b61c2;
 	}
 
-	&:focus-visible {
+	&:active {
 		background: #1856ad;
 	}
 

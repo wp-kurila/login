@@ -26,7 +26,7 @@ const Field: FC<Props> = ({label, name, type, autocomplete, value, setValue}: Pr
 
 	useEffect(() => {
 		touched && !focused && validaion(type, value, setErrorText);
-	}, [focused]);
+	}, [touched, focused]);
 
 	const handleFocus = useCallback(() => {
 		setFocused(true);
