@@ -1,13 +1,109 @@
-.login {
+.field---TooNu {
+	position: relative;
+	margin-bottom: 16px;
+}
+
+.input---c3UVF {
+	background: #2e303a;
+	border: 1px solid #3b3c44;
+	padding: 25px 15px 8px;
+	border-radius: 10px;
+	width: 100%;
+	height: 56px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	font-size: 18px;
+	line-height: 26px;
+	outline: 0;
+	color: #f2f3f9;
+}
+
+.input---c3UVF:hover {
+		border-color: #247fff;
+	}
+
+.input---c3UVF:focus-visible {
+		border-color: #247fff;
+		padding-left: 15px;
+		padding-right: 15px;
+		background: #18191e;
+	}
+
+.label---ObrDk {
+	color: #7f818f;
+    position: absolute;
+    left: 16px;
+    padding: 0;
+    top: 15px;
+    font-size: 18px;
+    line-height: 26px;
+    transition: top 0.1s ease;
+    pointer-events: none;
+    font-weight: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: calc(100% - 56px);
+    z-index: 1;
+}
+
+.label_active---lY_LG {
+	z-index: 10;
+	top: 4px;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.errorText---EupNa {
+	display: grid;
+	color: #ea4353;
+	transition: grid-template-rows .6s ease;
+	display: grid;
+	grid-template-rows: 0fr;
+	overflow: hidden;
+}
+
+.errorText---EupNa > div {
+		min-height: 0;
+		line-height: 32px;
+	}
+
+.errorText_active---HE3jS {
+	grid-template-rows: 1fr;
+}
+.button---y7PeH {
+	width: 100%;
+	background: #247fff;
+	color: #fff;
+	height: 56px;
+	border-radius: 10px;
+	border: none;
+	font-weight: 500;
+	font-size: 18px;
+	cursor: pointer;
+}
+.button---y7PeH:hover {
+		background: #1b61c2;
+	}
+.button---y7PeH:active {
+		background: #1856ad;
+	}
+.button---y7PeH:disabled {
+		background: #7f818f;
+		cursor: default;
+		opacity: 0.6;
+	}
+.login---pXNu3 {
 	background: #18191e;
 	width: 504px;
 	height: 450px;
-	box-shadow: 0 3px 40px rgb(0 30 69 / 16%);
+	box-shadow: 0 3px 40px rgba(0, 30, 69, 0.16);
 	border-radius: 10px;
 	padding: 48px 32px;
 }
 
-.icon {
+.icon---U2vpv {
 	aspect-ratio: 106 / 75;
 	width: 70px;
 	margin: 0 auto;
@@ -17,10 +113,35 @@
 
 }
 
-.title {
+.title---jfTzC {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 28px;
 	text-align: center;
 	margin-bottom: 48px;
 }
+.app---BiiZP {
+	min-height: 100vh;
+	background: linear-gradient(90deg, #002d6c 0%, #05c 120.45%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font: inherit;
+}
+
+body {
+	color: #f2f3f9;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1;
+}
+
+
+/*# sourceMappingURL=main.ac140d07.css.map*/
